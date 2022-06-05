@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T20:58:33.189Z" agent="5.0 (X11)" etag="Zz9acip0umUTSfVPktvJ" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T21:24:12.822Z" agent="5.0 (X11)" etag="SI_PxNgn6BDj8AEJCFGK" version="16.5.6" type="github">
   <diagram id="el1U36p7zhVe5056gf_X" name="Page-1">
-    <mxGraphModel dx="4092" dy="3312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1137" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,32 +175,20 @@
             <mxPoint x="1094.51" y="276" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zr_DOouq1NsPhkWcnJbG-17" target="W2DuysxjR4uDY15PI-nn-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="W2DuysxjR4uDY15PI-nn-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="95" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-17" value="help=&quot;directory of run&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="55" width="270" height="80" as="geometry" />
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="W2DuysxjR4uDY15PI-nn-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1539" y="215" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zr_DOouq1NsPhkWcnJbG-18" target="W2DuysxjR4uDY15PI-nn-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-18" value="action=&quot;store_true&quot;, help=&quot;get profiling data on ILE jobs from subdirectory iteration_*_cip/&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="1539" y="174" width="270" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zr_DOouq1NsPhkWcnJbG-19" target="W2DuysxjR4uDY15PI-nn-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-19" value="action=&quot;store_true&quot;, help=&quot;get profiling data on ILE jobs from subdirectory iteration_*_test/&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="295" width="270" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-25" value="action=&quot;store_true&quot;, help=&quot;get profiling data on ILE jobs from subdirectory iteration_*_ile/&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;flipH=1;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="827" y="114" width="270" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-26" value="action=&quot;store_true&quot;, help=&quot;get profiling data on ILE jobs from subdirectory iteration_*_con/&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="824" y="235" width="270" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-27" value="default=True, help=&quot;default is true, which supressing the print statements for debugging&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="828" y="355" width="270" height="80" as="geometry" />
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="W2DuysxjR4uDY15PI-nn-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="335" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Zr_DOouq1NsPhkWcnJbG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
