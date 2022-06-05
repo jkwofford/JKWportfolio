@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T17:52:02.777Z" agent="5.0 (X11)" etag="Q2xbP9KytmRoJRNQ-0Cj" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T18:26:49.301Z" agent="5.0 (X11)" etag="a7_HgAGVqCiX-KZ1oqh9" version="16.5.6" type="github">
   <diagram id="el1U36p7zhVe5056gf_X" name="Page-1">
-    <mxGraphModel dx="-92" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,6 +140,15 @@
         </mxCell>
         <mxCell id="Zr_DOouq1NsPhkWcnJbG-1" value="findFailedJobsChunkFromDagmanOut" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-73">
           <mxGeometry y="210" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W2DuysxjR4uDY15PI-nn-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="1150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1501" y="1150" />
+              <mxPoint x="1540" y="1150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
