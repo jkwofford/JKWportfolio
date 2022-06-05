@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T19:09:43.896Z" agent="5.0 (X11)" etag="AERPlIz_qWGcMC9Xd9ea" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T20:30:24.979Z" agent="5.0 (X11)" etag="Pi1uEvJJnRIG6ni-G7yW" version="16.5.6" type="github">
   <diagram id="el1U36p7zhVe5056gf_X" name="Page-1">
-    <mxGraphModel dx="1204" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="974" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,65 +48,77 @@
             <mxPoint x="1097.51" y="155" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W2DuysxjR4uDY15PI-nn-51" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1311" y="550" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W2DuysxjR4uDY15PI-nn-51" target="W2DuysxjR4uDY15PI-nn-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-51" value="Get extensions to profile" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1211" y="440" width="200" height="80" as="geometry">
+          <mxGeometry x="1040" y="440" width="540" height="310" as="geometry">
             <mxRectangle x="1211" y="440" width="170" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.472;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-53" target="W2DuysxjR4uDY15PI-nn-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-38" value="From the arguments, determine which extensions to profile and store in list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-51">
+          <mxGeometry x="10" y="30" width="410" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-53" value="count number of iterations" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1211" y="550" width="200" height="80" as="geometry">
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-39" value="&lt;div align=&quot;left&quot;&gt;&lt;blockquote&gt;&lt;pre&gt;extensionToProfile = []&lt;br&gt;if args.profile_ILE:&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;extensionToProfile.append(&quot;ile&quot;)&lt;/pre&gt;&lt;pre&gt;if args.profile_CIP:&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;extensionToProfile.append(&quot;cip&quot;)&lt;br&gt;if args.profile_CON:&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;extensionToProfile.append(&quot;con&quot;)&lt;br&gt;if args.profile_TEST:&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;extensionToProfile.append(&quot;test&quot;)&lt;/pre&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#000000;fontColor=#33FF33;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-51">
+          <mxGeometry x="65" y="88" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="W2DuysxjR4uDY15PI-nn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.472;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1311.2800000000002" y="954.8599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2DuysxjR4uDY15PI-nn-53" value="count number of iterations" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="958" y="818" width="702" height="112" as="geometry">
             <mxRectangle x="1211" y="550" width="180" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-41" value="Count number of iterations by counting directories" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-53">
+          <mxGeometry x="20" y="32" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-42" value="&lt;pre&gt;&lt;font color=&quot;#33FF33&quot;&gt;numIteration = len(glob.glob(r&quot;./iteration_*_{extensionToProfile[0]}/&quot;))&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#000000;fontColor=#9999FF;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-53">
+          <mxGeometry x="82" y="52" width="540" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-54" value="Main Loop" style="swimlane;startSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="670" width="490" height="860" as="geometry" />
+          <mxGeometry x="1080" y="954" width="490" height="860" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.315;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="W2DuysxjR4uDY15PI-nn-54" source="W2DuysxjR4uDY15PI-nn-55" target="W2DuysxjR4uDY15PI-nn-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-55" value="For each extension" style="whiteSpace=wrap;html=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="64" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-57" value="for every iteration" style="whiteSpace=wrap;html=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="90" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="144" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-61" value="Get All Logs Files" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="110" y="240" width="140" height="60" as="geometry" />
+          <mxGeometry x="110" y="244" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-62" value="Store all log files in array" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="W2DuysxjR4uDY15PI-nn-61" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-66" value="for every log file" style="whiteSpace=wrap;html=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="160" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="354" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-71" value="parseLogfile" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="331" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="331" y="354" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-57" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1259.906976744186" y="910" as="targetPoint" />
+            <mxPoint x="1259.906976744186" y="1194" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-61" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1295" y="1020" as="targetPoint" />
+            <mxPoint x="1295" y="1304" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-66" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1410" y="1034.888888888889" as="targetPoint" />
+            <mxPoint x="1410" y="1318.888888888889" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-73" value="User Defined Functions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="940" width="260" height="420" as="geometry" />
+          <mxGeometry x="1760" y="1224" width="260" height="420" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-74" value="plotRunTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="W2DuysxjR4uDY15PI-nn-73" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
@@ -149,11 +161,11 @@
         </mxCell>
         <mxCell id="Zr_DOouq1NsPhkWcnJbG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W2DuysxjR4uDY15PI-nn-71" target="W2DuysxjR4uDY15PI-nn-75">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1560" y="1150" as="targetPoint" />
+            <mxPoint x="1560" y="1434" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1501" y="1150" />
-              <mxPoint x="1730" y="1150" />
-              <mxPoint x="1730" y="1045" />
+              <mxPoint x="1501" y="1434" />
+              <mxPoint x="1730" y="1434" />
+              <mxPoint x="1730" y="1329" />
             </Array>
           </mxGeometry>
         </mxCell>
