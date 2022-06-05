@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T20:30:24.979Z" agent="5.0 (X11)" etag="Pi1uEvJJnRIG6ni-G7yW" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T20:44:55.063Z" agent="5.0 (X11)" etag="g6U32FW09SCPQsmitqmm" version="16.5.6" type="github">
   <diagram id="el1U36p7zhVe5056gf_X" name="Page-1">
     <mxGraphModel dx="974" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,41 +81,49 @@
         <mxCell id="W2DuysxjR4uDY15PI-nn-54" value="Main Loop" style="swimlane;startSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1080" y="954" width="490" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.315;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="W2DuysxjR4uDY15PI-nn-54" source="W2DuysxjR4uDY15PI-nn-55" target="W2DuysxjR4uDY15PI-nn-57" edge="1">
+        <mxCell id="W2DuysxjR4uDY15PI-nn-55" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;Loop over every extension you want to profile&lt;/p&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
+          <mxGeometry x="120" y="37" width="220" height="84.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#33FF33;" edge="1" parent="W2DuysxjR4uDY15PI-nn-54" source="W2DuysxjR4uDY15PI-nn-66" target="W2DuysxjR4uDY15PI-nn-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-55" value="For each extension" style="whiteSpace=wrap;html=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="40" y="64" width="120" height="60" as="geometry" />
+        <mxCell id="W2DuysxjR4uDY15PI-nn-66" value="for every log file" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
+          <mxGeometry x="185" y="626" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-57" value="for every iteration" style="whiteSpace=wrap;html=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="90" y="144" width="120" height="60" as="geometry" />
+        <mxCell id="W2DuysxjR4uDY15PI-nn-71" value="parseLogfile" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
+          <mxGeometry x="185" y="726" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-61" value="Get All Logs Files" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="110" y="244" width="140" height="60" as="geometry" />
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-43" value="&lt;div align=&quot;left&quot;&gt;for extension in extensionToProfile:&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#000000;fontColor=#33FF33;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-54">
+          <mxGeometry x="131" y="96" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-62" value="Store all log files in array" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="W2DuysxjR4uDY15PI-nn-61" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-66" value="for every log file" style="whiteSpace=wrap;html=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="160" y="354" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-71" value="parseLogfile" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
-          <mxGeometry x="331" y="354" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-57" edge="1">
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#33FF33;" edge="1" parent="W2DuysxjR4uDY15PI-nn-54" source="Zr_DOouq1NsPhkWcnJbG-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1259.906976744186" y="1194" as="targetPoint" />
+            <mxPoint x="230" y="332" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-61" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1295" y="1304" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-49" value="&lt;div&gt;extension = &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&quot;ile&quot;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&quot;cip&quot;&lt;/li&gt;&lt;li&gt;&quot;con&quot;&lt;/li&gt;&lt;li&gt;&quot;test&quot;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-54">
+          <mxGeometry x="100" y="146" width="260" height="159.99" as="geometry" />
         </mxCell>
-        <mxCell id="W2DuysxjR4uDY15PI-nn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="W2DuysxjR4uDY15PI-nn-66" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1410" y="1318.888888888889" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33FF33;" edge="1" parent="W2DuysxjR4uDY15PI-nn-54" source="W2DuysxjR4uDY15PI-nn-55" target="Zr_DOouq1NsPhkWcnJbG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-52" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;Loop over every iteration in the run&lt;/p&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-54">
+          <mxGeometry x="122" y="332" width="220" height="84.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#33FF33;" edge="1" parent="W2DuysxjR4uDY15PI-nn-54" source="Zr_DOouq1NsPhkWcnJbG-53" target="W2DuysxjR4uDY15PI-nn-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-53" value="for i in range(numIteration):" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#000000;fontColor=#33FF33;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-54">
+          <mxGeometry x="150" y="390" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W2DuysxjR4uDY15PI-nn-61" value="Get All Logs Files" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;" parent="W2DuysxjR4uDY15PI-nn-54" vertex="1">
+          <mxGeometry x="10" y="466" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W2DuysxjR4uDY15PI-nn-62" value="Store all log files in array" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="W2DuysxjR4uDY15PI-nn-61" vertex="1">
+          <mxGeometry y="30" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-57" value="numLogFiles_file = glob.glob(f&quot;{args.runDirectory}/iteration_{i}_{extension}/logs/*.log&quot;)" style="text;strokeColor=none;fillColor=#000000;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#33FF33;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-61">
+          <mxGeometry y="60" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W2DuysxjR4uDY15PI-nn-73" value="User Defined Functions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1760" y="1224" width="260" height="420" as="geometry" />
@@ -158,16 +166,6 @@
         </mxCell>
         <mxCell id="Zr_DOouq1NsPhkWcnJbG-1" value="findFailedJobsChunkFromDagmanOut" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="W2DuysxjR4uDY15PI-nn-73">
           <mxGeometry y="390" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr_DOouq1NsPhkWcnJbG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W2DuysxjR4uDY15PI-nn-71" target="W2DuysxjR4uDY15PI-nn-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1560" y="1434" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1501" y="1434" />
-              <mxPoint x="1730" y="1434" />
-              <mxPoint x="1730" y="1329" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="Zr_DOouq1NsPhkWcnJbG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -213,6 +211,19 @@
             <mxPoint x="1311" y="440" as="targetPoint" />
             <mxPoint x="1311" y="410" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33FF33;" edge="1" parent="1" source="W2DuysxjR4uDY15PI-nn-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33FF33;" edge="1" parent="1" source="W2DuysxjR4uDY15PI-nn-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr_DOouq1NsPhkWcnJbG-63" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;fontColor=#33FF33;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="1820" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
