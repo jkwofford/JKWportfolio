@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T19:03:59.376Z" agent="5.0 (X11)" etag="fCULsOT6-wnq5bQ4l-bP" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T19:10:55.658Z" agent="5.0 (X11)" etag="FuY-fkrwmx5NGxz51QPJ" version="16.5.6" type="github">
   <diagram id="el1U36p7zhVe5056gf_X" name="Page-1">
-    <mxGraphModel dx="8520" dy="4580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5110" dy="2840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -376,7 +376,7 @@
         <mxCell id="NSEhIr9YOBG-j8cRFP1d-43" value="Failed Jobs?" style="rhombus;whiteSpace=wrap;html=1;fontSize=60;strokeWidth=10;labelBackgroundColor=#FFFFFF;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1930" y="3434" width="580" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="NSEhIr9YOBG-j8cRFP1d-45" value="&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;unique plot name&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;axes&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;fontSize=60;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="NSEhIr9YOBG-j8cRFP1d-45" value="&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(51 , 255 , 51)&quot;&gt;unique plot name&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;axes&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;fontSize=60;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=10;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1940" y="5230" width="820" height="450" as="geometry" />
         </mxCell>
       </root>
