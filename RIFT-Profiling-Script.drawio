@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T17:39:30.522Z" agent="5.0 (X11)" etag="qMoJ8cfvesW136zj5QGb" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T17:42:31.490Z" agent="5.0 (X11)" etag="sgf51oqN8qRs99CtbpsB" version="16.5.6" type="github">
   <diagram id="el1U36p7zhVe5056gf_X" name="Page-1">
-    <mxGraphModel dx="2273" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2558" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,6 +285,18 @@
         </mxCell>
         <mxCell id="Zr_DOouq1NsPhkWcnJbG-118" value="Main" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;strokeWidth=1;fontSize=100;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="70" y="1240" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NSEhIr9YOBG-j8cRFP1d-1" value="" style="strokeWidth=10;html=1;shape=mxgraph.flowchart.merge_or_storage;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;fontSize=21;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="3950" width="615" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="NSEhIr9YOBG-j8cRFP1d-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;strokeWidth=20;" edge="1" parent="1" source="NSEhIr9YOBG-j8cRFP1d-3" target="NSEhIr9YOBG-j8cRFP1d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSEhIr9YOBG-j8cRFP1d-3" value="&lt;p style=&quot;line-height: 0&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelBackgroundColor=#FFFFFF;fontSize=21;fontColor=#000000;strokeWidth=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="3480" width="820" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NSEhIr9YOBG-j8cRFP1d-4" value="&lt;p style=&quot;line-height: 0&quot;&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;Generate the .ini files for the test cases &lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3595" width="530" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
